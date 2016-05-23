@@ -1,0 +1,15 @@
+/*
+Theme Name: Microblog
+Description: Used to style the TinyMCE editor.
+*/
+
+body#tinymce.wp-editor blockquote:before,
+body#tinymce.wp-editor blockquote:after,
+body#tinymce.wp-editor q:before,
+body#tinymce.wp-editor q:after {
+	content: none;
+}
+
+body#tinymce.wp-editor a {
+	margin: 10px;
+}

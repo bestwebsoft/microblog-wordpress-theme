@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Microblog\n"
+"POT-Creation-Date: 2015-03-12 16:58+0300\n"
+"PO-Revision-Date: 2015-03-12 16:58+0300\n"
+"Last-Translator: \n"
+"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2\n"
+"X-Poedit-Basepath: /home/gvv/translate/microblog\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /home/gvv/translate/microblog\n"
+
+#: /home/gvv/translate/microblog/archive.php:15
+#: /home/gvv/translate/microblog/index.php:20
+#: /home/gvv/translate/microblog/search.php:14
+#: /home/gvv/translate/microblog/image.php:13
+#: /home/gvv/translate/microblog/category.php:15
+#: /home/gvv/translate/microblog/single.php:12
+msgid "Posted by"
+msgstr ""
+
+#: /home/gvv/translate/microblog/archive.php:15
+#: /home/gvv/translate/microblog/index.php:20
+#: /home/gvv/translate/microblog/search.php:14
+#: /home/gvv/translate/microblog/category.php:15
+#: /home/gvv/translate/microblog/single.php:13
+msgid "in"
+msgstr ""
+
+#: /home/gvv/translate/microblog/archive.php:17
+#: /home/gvv/translate/microblog/index.php:22
+#: /home/gvv/translate/microblog/search.php:16
+#: /home/gvv/translate/microblog/category.php:17
+msgid "See post"
+msgstr ""
+
+#: /home/gvv/translate/microblog/archive.php:35
+#: /home/gvv/translate/microblog/index.php:46
+#: /home/gvv/translate/microblog/search.php:34
+#: /home/gvv/translate/microblog/category.php:35
+msgid "&#8249; older posts"
+msgstr ""
+
+#: /home/gvv/translate/microblog/archive.php:36
+msgid "NEWER POSTS &#8250;"
+msgstr ""
+
+#: /home/gvv/translate/microblog/archive.php:39
+#: /home/gvv/translate/microblog/index.php:50
+#: /home/gvv/translate/microblog/category.php:39
+msgid "Sorry, no posts matched"
+msgstr ""
+
+#: /home/gvv/translate/microblog/archive.php:40
+#: /home/gvv/translate/microblog/index.php:51
+#: /home/gvv/translate/microblog/category.php:40
+#: /home/gvv/translate/microblog/404.php:11
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: /home/gvv/translate/microblog/index.php:38
+#: /home/gvv/translate/microblog/page.php:19
+#: /home/gvv/translate/microblog/image.php:65
+#: /home/gvv/translate/microblog/single.php:24
+msgid "Pages:"
+msgstr ""
+
+#: /home/gvv/translate/microblog/index.php:47
+#: /home/gvv/translate/microblog/search.php:35
+#: /home/gvv/translate/microblog/category.php:36
+msgid "newer posts &#8250;"
+msgstr ""
+
+#: /home/gvv/translate/microblog/search.php:38
+msgid "No posts matched"
+msgstr ""
+
+#: /home/gvv/translate/microblog/search.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: /home/gvv/translate/microblog/image.php:17
+msgid "Next &#8250;"
+msgstr ""
+
+#: /home/gvv/translate/microblog/image.php:18
+msgid "&#8249; Previous"
+msgstr ""
+
+#: /home/gvv/translate/microblog/image.php:73
+msgid "&#8249; FORVARD"
+msgstr ""
+
+#: /home/gvv/translate/microblog/image.php:74
+msgid "BACK &#8250;"
+msgstr ""
+
+#: /home/gvv/translate/microblog/sidebar.php:35
+msgid "Hi,"
+msgstr ""
+
+#: /home/gvv/translate/microblog/sidebar.php:40
+msgid "Hi, guest!"
+msgstr ""
+
+#: /home/gvv/translate/microblog/sidebar.php:64
+msgid "designed with love by"
+msgstr ""
+
+#: /home/gvv/translate/microblog/sidebar.php:66
+msgid "bestwebsoft"
+msgstr ""
+
+#: /home/gvv/translate/microblog/comments.php:17
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /home/gvv/translate/microblog/comments.php:25
+msgid "&#8249; Older Comments"
+msgstr ""
+
+#: /home/gvv/translate/microblog/comments.php:26
+msgid "Newer Comments &#8250;"
+msgstr ""
+
+#: /home/gvv/translate/microblog/comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: /home/gvv/translate/microblog/single.php:32
+msgid "&#8249; next post"
+msgstr ""
+
+#: /home/gvv/translate/microblog/single.php:33
+msgid "prev post &#8250;"
+msgstr ""
+
+#: /home/gvv/translate/microblog/header.php:27
+msgid "LATEST POSTS"
+msgstr ""
+
+#: /home/gvv/translate/microblog/header.php:29
+msgid "Archives by Day:"
+msgstr ""
+
+#: /home/gvv/translate/microblog/header.php:31
+msgid "Archives by Month:"
+msgstr ""
+
+#: /home/gvv/translate/microblog/header.php:33
+msgid "Archives by Year:"
+msgstr ""
+
+#: /home/gvv/translate/microblog/header.php:35
+msgid "Archives by category:"
+msgstr ""
+
+#: /home/gvv/translate/microblog/header.php:38
+#, php-format
+msgid "Search results: %1$s matches on"
+msgstr ""
+
+#: /home/gvv/translate/microblog/header.php:40
+msgid "404: Page not found"
+msgstr ""
+
+#: /home/gvv/translate/microblog/header.php:49
+#: /home/gvv/translate/microblog/header.php:50
+msgid "Executor Profile"
+msgstr ""
+
+#: /home/gvv/translate/microblog/404.php:10
+msgid "Sorry, unfortunately, we could not find the requested page."
+msgstr ""
+
+#: /home/gvv/translate/microblog/functions.php:28
+msgid "sidebar menu"
+msgstr ""
+
+#: /home/gvv/translate/microblog/functions.php:81
+msgid "Enter your search keyword"
+msgstr ""
+
+#: /home/gvv/translate/microblog/functions.php:133
+msgid "Pingback:"
+msgstr ""
+
+#: /home/gvv/translate/microblog/single.php:14
+#: /home/gvv/translate/microblog/functions.php:133
+#: /home/gvv/translate/microblog/functions.php:159
+msgid "Edit"
+msgstr "Изменить"
+
+#: /home/gvv/translate/microblog/functions.php:149
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: /home/gvv/translate/microblog/functions.php:154
+msgid "at"
+msgstr ""
+
+#: /home/gvv/translate/microblog/functions.php:197
+#, php-format
+msgid "Page %s"
+msgstr ""
