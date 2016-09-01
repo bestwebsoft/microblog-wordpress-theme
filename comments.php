@@ -8,24 +8,27 @@
  * @subpackage Microblog
  * @since      Microblog
  */
-if ( post_password_required() )
-	return; ?>
+if ( post_password_required() ) {
+	return;
+} ?>
 <div id="mcrblg_comments" class="mcrblg-comments-area">
 	<?php if ( have_comments() ) : ?>
 		<h2 class="mcrblg-post-info">
-			<?php
-			printf( _n( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'microblog' ), number_format_i18n( get_comments_number() ),
-			'<span>' . get_the_title() . '</span>' );
-			?>
+			<?php printf( _n( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'microblog' ), number_format_i18n( get_comments_number() ),
+			'<span>' . get_the_title() . '</span>' ); ?>
 		</h2><!--.mcrblg-post-info-->
 		<ol class="mcrblg-commentlist">
-			<?php wp_list_comments( array( 'callback' => 'microblog_comment', 'style' => 'li' ) ); ?>
+			<?php wp_list_comments( array(
+				'callback' => 'microblog_comment',
+				'style'    => 'li',
+			) ); ?>
 		</ol><!-- .mcrblg-commentlist-->
-		<div class="mcrblg-nav-container">
-			<div class="mcrblg-next-post-button"><?php previous_comments_link( __( '&#8249; Previous Comments', 'microblog' ) ); ?></div>
-			<div class="mcrblg-previous-post-button"><?php next_comments_link( __( 'Next Comments &#8250;', 'microblog' ) ); ?></div>
-		</div><!--.mcrblg-nav-container-->
-		<?php
+		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : ?>
+			<div class="mcrblg-nav-container">
+				<div class="mcrblg-next-post-button"><?php previous_comments_link( __( '&#8249; Previous Comments', 'microblog' ) ); ?></div>
+				<div class="mcrblg-previous-post-button"><?php next_comments_link( __( 'Next Comments &#8250;', 'microblog' ) ); ?></div>
+			</div><!--.mcrblg-nav-container-->
+		<?php endif;
 		/* If there are no comments and comments are closed, let's leave a note.
 		 * But we only want the note on posts and pages that had comments in the first place.
 		 */

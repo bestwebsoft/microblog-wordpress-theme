@@ -4,8 +4,7 @@
  *
  * @subpackage Microblog
  * @since      Microblog
- */
-?>
+ */ ?>
 <div class="mcrblg-searchform-wrapper">
 	<div class="mcrblg-searchform-container">
 		<form role="search" method="get" autocomplete="off" action="<?php echo esc_url( home_url( '/' ) ) ?>">

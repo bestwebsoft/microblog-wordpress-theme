@@ -15,4 +15,4 @@ get_header(); ?>
 	</div><!--.mcrblg-single-container-->
 </div><!--.content-container-->
 <?php get_sidebar();
-get_footer(); ?>
+get_footer();

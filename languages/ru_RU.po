@@ -1,185 +1,152 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Microblog\n"
-"POT-Creation-Date: 2015-03-24 18:05+0300\n"
-"PO-Revision-Date: 2015-03-24 18:05+0300\n"
+"POT-Creation-Date: 2016-08-18 11:43+0300\n"
+"PO-Revision-Date: 2016-08-18 11:44+0300\n"
 "Last-Translator: a <a>\n"
 "Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../functions.php:28
-msgid "sidebar menu"
-msgstr "боковое меню "
-
-#: ../functions.php:65
-msgid "Enter your search keyword"
-msgstr "Введите ключевое слово для поиска"
-
-#: ../functions.php:117
-msgid "Pingback:"
-msgstr "Pingback:"
-
-#: ../functions.php:117 ../functions.php:143 ../single.php:14
-msgid "Edit"
-msgstr "Редактировать"
-
-#: ../functions.php:133
-msgid "Your comment is awaiting moderation."
-msgstr "Ваш комментарий ожидает модерации."
-
-#: ../functions.php:138
-msgid "at"
-msgstr "в"
-
-#: ../functions.php:171
-#, php-format
-msgid "Page %s"
-msgstr "Страница %s"
-
-#: ../index.php:20 ../archive.php:15 ../category.php:15 ../image.php:13
-#: ../single.php:12 ../search.php:14
-msgid "Posted by"
-msgstr "Опубликовано"
-
-#: ../index.php:20 ../archive.php:15 ../category.php:15 ../single.php:13
-#: ../search.php:14
-msgid "in"
-msgstr "в"
-
-#: ../index.php:22 ../archive.php:17 ../category.php:17 ../search.php:16
-msgid "See post"
-msgstr "Просмотреть запись"
-
-#: ../index.php:38 ../image.php:65 ../single.php:24 ../page.php:19
-msgid "Pages:"
-msgstr "Страницы:"
-
-#: ../index.php:46 ../archive.php:35 ../category.php:35 ../search.php:34
-msgid "&#8249; previous posts"
-msgstr "&#8249; предыдущие записи"
-
-# next posts &#8250;
-#: ../index.php:47 ../archive.php:36 ../category.php:36 ../search.php:35
-msgid "next posts &#8250;"
-msgstr "новые записи &#8250;"
-
-# Sorry, no matching posts found
-#: ../index.php:50 ../archive.php:39 ../category.php:39
-msgid "Sorry, no matching posts found"
-msgstr "Извините, нет записей, удовлетворяющих запросу"
+#: ../404.php:10
+msgid "Sorry, unfortunately, we could not find the requested page."
+msgstr "К сожалению, мы не нашли запрашиваемую страницу."
 
 # The page you are looking for is not found. Maybe try a search?
-#: ../index.php:51 ../archive.php:40 ../category.php:40 ../404.php:11
+#: ../404.php:11 ../archive.php:44 ../category.php:40 ../index.php:52
 msgid "The page you are looking for is not found. Maybe try a search?"
 msgstr ""
 "Запрашиваемая страница не найдена. Попробуйте воспользоваться поиском. "
 
-#: ../comments.php:17
+#: ../archive.php:16 ../category.php:16 ../image.php:14 ../index.php:22
+#: ../search.php:15 ../single.php:13
+msgid "Posted by"
+msgstr "Опубликовано"
+
+#: ../archive.php:16 ../category.php:16 ../index.php:22 ../search.php:15
+#: ../single.php:14
+msgid "in"
+msgstr "в"
+
+#: ../archive.php:18 ../category.php:18 ../index.php:24 ../search.php:17
+msgid "See post"
+msgstr "Просмотреть запись"
+
+#: ../archive.php:32 ../image.php:74 ../index.php:39 ../page.php:19
+#: ../single.php:24
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: ../archive.php:39 ../category.php:35 ../index.php:47 ../search.php:34
+msgid "&#8249; previous posts"
+msgstr "&#8249; предыдущие записи"
+
+# next posts &#8250;
+#: ../archive.php:40 ../category.php:36 ../index.php:48 ../search.php:35
+msgid "next posts &#8250;"
+msgstr "новые записи &#8250;"
+
+# Sorry, no matching posts found
+#: ../archive.php:43 ../category.php:39 ../index.php:51
+msgid "Sorry, no matching posts found"
+msgstr "Извините, нет записей, удовлетворяющих запросу"
+
+#: ../comments.php:16
 #, php-format
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "Один комментарий к &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s комментариев к &ldquo;%2$s&rdquo;"
 
-#: ../comments.php:25
+#: ../comments.php:27
 msgid "&#8249; Previous Comments"
 msgstr "&#8249; Предыдущие коментарии"
 
 # Next Comments &#8250;
-#: ../comments.php:26
+#: ../comments.php:28
 msgid "Next Comments &#8250;"
 msgstr "Новые комментарии &#8250;"
 
-#: ../comments.php:34
+#: ../comments.php:36
 msgid "Comments are closed."
 msgstr "Комментарии закрыты."
 
-#: ../image.php:17
-msgid "Next &#8250;"
-msgstr "Следующий &#8250;"
+#: ../functions.php:28
+msgid "sidebar menu"
+msgstr "боковое меню "
 
-#: ../image.php:18
-msgid "&#8249; Previous"
-msgstr "&#8249; Предыдущий"
+#: ../functions.php:66
+msgid "Enter your search keyword"
+msgstr "Введите запрос для поиска"
 
-# &#8249; FORWARD
-#: ../image.php:73
-msgid "&#8249; FORWARD"
-msgstr "&#8249; ВПЕРЕД"
+#: ../functions.php:104
+msgid "Pingback: "
+msgstr "Уведомление:"
 
-#: ../image.php:74
-msgid "BACK &#8250;"
-msgstr "НАЗАД &#8250;"
+#: ../functions.php:108 ../functions.php:138 ../single.php:15
+msgid "Edit"
+msgstr "Редактировать"
 
-#: ../single.php:32
-msgid "&#8249; next post"
-msgstr "&#8249; следующая запись"
+#: ../functions.php:125
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
 
-#: ../single.php:33
-msgid "prev post &#8250;"
-msgstr "предыдущая запись &#8250;"
+#: ../functions.php:132
+msgid "at"
+msgstr "в"
 
-#: ../404.php:10
-msgid "Sorry, unfortunately, we could not find the requested page."
-msgstr "К сожалению, мы не нашли запрашиваемую страницу."
+#: ../header.php:32
+msgid "Latest posts"
+msgstr "Последние записи"
 
-#: ../header.php:27
-msgid "LATEST POSTS"
-msgstr "ПОСЛЕДНИЕ ЗАПИСИ"
-
-#: ../header.php:29
+#: ../header.php:34
 msgid "Daily archives:"
 msgstr "Архив записей за день:"
 
-#: ../header.php:31
+#: ../header.php:36
 msgid "Monthly archives:"
 msgstr "Архив записей за месяц:"
 
-#: ../header.php:33
+#: ../header.php:38
 msgid "Yearly archives:"
 msgstr "Архив записей за год:"
 
-#: ../header.php:35
+#: ../header.php:40
 msgid "Category archives:"
 msgstr "Архив записей по категории:"
 
-#: ../header.php:38
+#: ../header.php:43
 #, php-format
 msgid "Search results: %1$s matches on"
 msgstr "Результаты поиска: %1$s совпадений для"
 
-#: ../header.php:40
+#: ../header.php:45
 msgid "404: Page not found"
 msgstr "404: Страница не найдена"
 
-#: ../header.php:49 ../header.php:50
-msgid "Executor Profile"
-msgstr "Профиль исполнителя"
+#: ../image.php:18
+msgid "Next &#8250;"
+msgstr "Следующий &#8250;"
 
-#: ../sidebar.php:35
-msgid "Hi,"
-msgstr "Привет,"
+#: ../image.php:19
+msgid "&#8249; Previous"
+msgstr "&#8249; Предыдущий"
 
-#: ../sidebar.php:40
-msgid "Hi, guest!"
-msgstr "Привет, гость!"
+#: ../image.php:82
+msgid "&#8249; Forward"
+msgstr "&#8249; Вперед"
 
-#: ../sidebar.php:64
-msgid "designed with love by"
-msgstr "designed with love by"
-
-#: ../sidebar.php:66
-msgid "bestwebsoft"
-msgstr "bestwebsoft"
+#: ../image.php:85
+msgid "Back &#8250;"
+msgstr "Назад &#8250;"
 
 #: ../search.php:38
 msgid "No matching posts found"
@@ -193,3 +160,52 @@ msgid ""
 msgstr ""
 "По вашему запросу ничего не найдено. Попробуйте повторить поиск, "
 "воспользовавшись другими ключевыми словами."
+
+#: ../sidebar.php:33
+msgid "Hi,"
+msgstr "Привет,"
+
+#: ../sidebar.php:35
+msgid "Hi, guest!"
+msgstr "Привет, гость!"
+
+#: ../sidebar.php:54
+msgid "Powered by"
+msgstr "При поддержке"
+
+#: ../sidebar.php:55
+msgid "and"
+msgstr "and"
+
+#: ../single.php:31
+msgid "&#8249; next post"
+msgstr "&#8249; следующая запись"
+
+#: ../single.php:32
+msgid "prev post &#8250;"
+msgstr "предыдущая запись &#8250;"
+
+#~ msgid "LATEST POSTS"
+#~ msgstr "ПОСЛЕДНИЕ ЗАПИСИ"
+
+#~ msgid "Executor Profile"
+#~ msgstr "Профиль исполнителя"
+
+#~ msgid "Pingback:"
+#~ msgstr "Pingback:"
+
+#~ msgid "Page %s"
+#~ msgstr "Страница %s"
+
+# &#8249; FORWARD
+#~ msgid "&#8249; FORWARD"
+#~ msgstr "&#8249; ВПЕРЕД"
+
+#~ msgid "BACK &#8250;"
+#~ msgstr "НАЗАД &#8250;"
+
+#~ msgid "designed with love by"
+#~ msgstr "designed with love by"
+
+#~ msgid "bestwebsoft"
+#~ msgstr "bestwebsoft"
