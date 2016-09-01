@@ -1,216 +1,165 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Microblog\n"
-"POT-Creation-Date: 2015-03-12 16:58+0300\n"
-"PO-Revision-Date: 2015-03-12 16:58+0300\n"
-"Last-Translator: \n"
-"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
-"Language: \n"
+"Project-Id-Version: Microblog v1.3\n"
+"POT-Creation-Date: 2016-09-01 18:16+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2\n"
-"X-Poedit-Basepath: /home/gvv/translate/microblog\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: /home/gvv/translate/microblog\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: /home/gvv/translate/microblog/archive.php:15
-#: /home/gvv/translate/microblog/index.php:20
-#: /home/gvv/translate/microblog/search.php:14
-#: /home/gvv/translate/microblog/image.php:13
-#: /home/gvv/translate/microblog/category.php:15
-#: /home/gvv/translate/microblog/single.php:12
+#: 404.php:10
+msgid "Sorry, unfortunately, we could not find the requested page."
+msgstr ""
+
+#: 404.php:11 archive.php:44 index.php:52
+msgid "The page you are looking for is not found. Maybe try a search?"
+msgstr ""
+
+#: archive.php:16 image.php:14 index.php:22 search.php:15 single.php:13
 msgid "Posted by"
 msgstr ""
 
-#: /home/gvv/translate/microblog/archive.php:15
-#: /home/gvv/translate/microblog/index.php:20
-#: /home/gvv/translate/microblog/search.php:14
-#: /home/gvv/translate/microblog/category.php:15
-#: /home/gvv/translate/microblog/single.php:13
+#: archive.php:16 index.php:22 search.php:15 single.php:14
 msgid "in"
 msgstr ""
 
-#: /home/gvv/translate/microblog/archive.php:17
-#: /home/gvv/translate/microblog/index.php:22
-#: /home/gvv/translate/microblog/search.php:16
-#: /home/gvv/translate/microblog/category.php:17
+#: archive.php:18 index.php:24 search.php:17
 msgid "See post"
 msgstr ""
 
-#: /home/gvv/translate/microblog/archive.php:35
-#: /home/gvv/translate/microblog/index.php:46
-#: /home/gvv/translate/microblog/search.php:34
-#: /home/gvv/translate/microblog/category.php:35
-msgid "&#8249; older posts"
-msgstr ""
-
-#: /home/gvv/translate/microblog/archive.php:36
-msgid "NEWER POSTS &#8250;"
-msgstr ""
-
-#: /home/gvv/translate/microblog/archive.php:39
-#: /home/gvv/translate/microblog/index.php:50
-#: /home/gvv/translate/microblog/category.php:39
-msgid "Sorry, no posts matched"
-msgstr ""
-
-#: /home/gvv/translate/microblog/archive.php:40
-#: /home/gvv/translate/microblog/index.php:51
-#: /home/gvv/translate/microblog/category.php:40
-#: /home/gvv/translate/microblog/404.php:11
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr ""
-
-#: /home/gvv/translate/microblog/index.php:38
-#: /home/gvv/translate/microblog/page.php:19
-#: /home/gvv/translate/microblog/image.php:65
-#: /home/gvv/translate/microblog/single.php:24
+#: archive.php:32 image.php:74 index.php:39 page.php:19 single.php:24
 msgid "Pages:"
 msgstr ""
 
-#: /home/gvv/translate/microblog/index.php:47
-#: /home/gvv/translate/microblog/search.php:35
-#: /home/gvv/translate/microblog/category.php:36
-msgid "newer posts &#8250;"
+#: archive.php:39 index.php:47 search.php:34
+msgid "&#8249; previous posts"
 msgstr ""
 
-#: /home/gvv/translate/microblog/search.php:38
-msgid "No posts matched"
+#: archive.php:40 index.php:48 search.php:35
+msgid "next posts &#8250;"
 msgstr ""
 
-#: /home/gvv/translate/microblog/search.php:39
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
+#: archive.php:43 index.php:51
+msgid "Sorry, no matching posts found"
 msgstr ""
 
-#: /home/gvv/translate/microblog/image.php:17
-msgid "Next &#8250;"
-msgstr ""
-
-#: /home/gvv/translate/microblog/image.php:18
-msgid "&#8249; Previous"
-msgstr ""
-
-#: /home/gvv/translate/microblog/image.php:73
-msgid "&#8249; FORVARD"
-msgstr ""
-
-#: /home/gvv/translate/microblog/image.php:74
-msgid "BACK &#8250;"
-msgstr ""
-
-#: /home/gvv/translate/microblog/sidebar.php:35
-msgid "Hi,"
-msgstr ""
-
-#: /home/gvv/translate/microblog/sidebar.php:40
-msgid "Hi, guest!"
-msgstr ""
-
-#: /home/gvv/translate/microblog/sidebar.php:64
-msgid "designed with love by"
-msgstr ""
-
-#: /home/gvv/translate/microblog/sidebar.php:66
-msgid "bestwebsoft"
-msgstr ""
-
-#: /home/gvv/translate/microblog/comments.php:17
+#: comments.php:17
 #, php-format
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: /home/gvv/translate/microblog/comments.php:25
-msgid "&#8249; Older Comments"
+#: comments.php:28
+msgid "&#8249; Previous Comments"
 msgstr ""
 
-#: /home/gvv/translate/microblog/comments.php:26
-msgid "Newer Comments &#8250;"
+#: comments.php:29
+msgid "Next Comments &#8250;"
 msgstr ""
 
-#: /home/gvv/translate/microblog/comments.php:34
+#: comments.php:37
 msgid "Comments are closed."
 msgstr ""
 
-#: /home/gvv/translate/microblog/single.php:32
-msgid "&#8249; next post"
+#: functions.php:28
+msgid "sidebar menu"
 msgstr ""
 
-#: /home/gvv/translate/microblog/single.php:33
-msgid "prev post &#8250;"
+#: functions.php:66
+msgid "Enter your search keyword"
 msgstr ""
 
-#: /home/gvv/translate/microblog/header.php:27
-msgid "LATEST POSTS"
+#: functions.php:104
+msgid "Pingback: "
 msgstr ""
 
-#: /home/gvv/translate/microblog/header.php:29
-msgid "Archives by Day:"
+#: functions.php:108 functions.php:138 single.php:15
+msgid "Edit"
 msgstr ""
 
-#: /home/gvv/translate/microblog/header.php:31
-msgid "Archives by Month:"
+#: functions.php:125
+msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: /home/gvv/translate/microblog/header.php:33
-msgid "Archives by Year:"
+#: functions.php:132
+msgid "at"
 msgstr ""
 
-#: /home/gvv/translate/microblog/header.php:35
-msgid "Archives by category:"
+#: header.php:32
+msgid "Latest posts"
 msgstr ""
 
-#: /home/gvv/translate/microblog/header.php:38
+#: header.php:37
 #, php-format
 msgid "Search results: %1$s matches on"
 msgstr ""
 
-#: /home/gvv/translate/microblog/header.php:40
+#: header.php:39
 msgid "404: Page not found"
 msgstr ""
 
-#: /home/gvv/translate/microblog/header.php:49
-#: /home/gvv/translate/microblog/header.php:50
-msgid "Executor Profile"
+#: image.php:18
+msgid "Next &#8250;"
 msgstr ""
 
-#: /home/gvv/translate/microblog/404.php:10
-msgid "Sorry, unfortunately, we could not find the requested page."
+#: image.php:19
+msgid "&#8249; Previous"
 msgstr ""
 
-#: /home/gvv/translate/microblog/functions.php:28
-msgid "sidebar menu"
+#: image.php:82
+msgid "&#8249; Forward"
 msgstr ""
 
-#: /home/gvv/translate/microblog/functions.php:81
-msgid "Enter your search keyword"
+#: image.php:85
+msgid "Back &#8250;"
 msgstr ""
 
-#: /home/gvv/translate/microblog/functions.php:133
-msgid "Pingback:"
+#: search.php:38
+msgid "No matching posts found"
 msgstr ""
 
-#: /home/gvv/translate/microblog/single.php:14
-#: /home/gvv/translate/microblog/functions.php:133
-#: /home/gvv/translate/microblog/functions.php:159
-msgid "Edit"
-msgstr "Изменить"
-
-#: /home/gvv/translate/microblog/functions.php:149
-msgid "Your comment is awaiting moderation."
+#: search.php:39
+msgid ""
+"Sorry, but nothing matched your search query. Please try again with "
+"different keywords."
 msgstr ""
 
-#: /home/gvv/translate/microblog/functions.php:154
-msgid "at"
+#: sidebar.php:31
+msgid "Hi,"
 msgstr ""
 
-#: /home/gvv/translate/microblog/functions.php:197
-#, php-format
-msgid "Page %s"
+#: sidebar.php:33
+msgid "Hi, guest!"
+msgstr ""
+
+#: sidebar.php:52
+msgid "Powered by"
+msgstr ""
+
+#: sidebar.php:53
+msgid "and"
+msgstr ""
+
+#: single.php:31
+msgid "&#8249; next post"
+msgstr ""
+
+#: single.php:32
+msgid "prev post &#8250;"
 msgstr ""
